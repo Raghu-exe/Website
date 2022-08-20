@@ -34,7 +34,7 @@
     border:none;
     background-color: white;
     font-size: 25px;
-    margin: 20px 0px 15px 0px;
+    margin: 5px 0px 15px 0px;
 
 
  }
@@ -62,15 +62,13 @@
  }
 
  .elements{
-    margin-left: 9%; 
-    padding-top: 25%;
+    margin-left: 10%; 
+    padding-top: 7%;
  }
 
- .label{
-    
+ label{
     color: white;
     font-size: 30;
     font-weight: bolder;
-    margin-left: 35%;
     
 }
