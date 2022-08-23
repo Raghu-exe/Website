@@ -66,15 +66,15 @@ input{
 }
 
 button{
-color:#8A9A5B;
+  background-color: aqua;
 }
 
 .container{
-  background-color: red;
+  background-color:#71797E;
+  height:80%;
 }
 
 p{
   text-align: center;
-  
 }
 
