@@ -1,33 +1,35 @@
-.navbar{
-
-    background-color: 	#36454F;
-
-}
 
 body{
 
-    background-color: 	#E5E4E2;
+    background-color:#b4b3b0;
 
 }
 
 .emblem{
 
-    width: 35%;
-    height: 35%;
+    width: 17%;
+    height: 17%;
+    margin-left: -3%;
 
 }
 
 .profile{
 
-    width: 25%;
-    height:25%;
+    width: 55%;
+    height:55%;
+    margin-left: 75%;
+    margin-top: 7%;
+    
 
 }
 
 .chat {
 
-    width:7%;
-    height:7%;
+    width:55%;
+    height: 55%;
+    margin-left: 35%;
+    margin-right: -10%;
+    margin-top: 10%;
 
 }
 
@@ -36,8 +38,51 @@ body{
  
     border: none;
     float: left;
-    width: 45%;
+    width: 20%;
     background: white;
 
 }
 
+.topnav {
+    background-color:#10192b;
+    overflow:auto;
+    width: 100%;
+  }
+
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    color: #5bd4a5;
+    text-decoration:none;
+  }
+  
+  .topnav a.active {
+    color: #5bd4a5;
+    text-decoration: none;
+  }
+  
+.right{
+
+    padding-left: 75%;
+
+}
+
+.search{
+
+    background-color: #10192b;
+    width:60%;
+    padding-top: 0.75%;
+    
+}
+
+.nav-link{
+
+    padding-top: 4%;
+
+}

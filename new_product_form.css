@@ -1,29 +1,3 @@
-.topnav {
-  background-color:#10192b;
-  overflow: hidden;
-}
-body{
-  background-color: lemonchiffon;
-}
-
-.topnav a {
-  float: left;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  color: #5bd4a5;
-  text-decoration:none;
-}
-
-.topnav a.active {
-  color: #5bd4a5;
-  text-decoration: none;
-}
 
 input{
   margin:auto;
@@ -81,3 +55,24 @@ p{
 .upload{
   height:40px;
 }
+
+
+
+
+.input-group{
+
+
+  border: none;
+  float: left;
+  width: 45%;
+  background: white;
+
+}
+
+.search{
+
+  width: 50%;
+  background-color: purple;
+
+}
+

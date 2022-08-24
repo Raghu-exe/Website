@@ -16,52 +16,33 @@
       </title>
   </head>
   <body >
-    <nav class= "navbar navbar-expand-lg">   
-      <div class="container-fluid">
-      <div class="row g-0">
-        <div class="col-sm">
-          <a class="emblem navbar-brand ps-3" href="#"><img class="emblem" src="./cart.svg" alt="Company Emblem"></a>
-        </div>
-        
-        <div class="col-md-4">
-          <form class = "g-0">
-            <input name = "search" class= "form-control input-group input-group-sm" id = "search-query inputGroup-sizing-default" type="text" placeholder="Search....">
-            <div class="btn-group mr-2" role="group" aria-label="search_bar">
-              <button type="search" class="btn btn-outline-dark shadow" style="background-color: #b2beb5">Search</button>
-              <button type="button" class="btn btn-outline-dark shadow dropdown-toggle dropdown-toggle-split" style="background-color: #b2beb5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="sr-only"></span>
-              </button>
+
+    <div class="topnav pt-2">
+      <a class="emblem navbar-brand mb-2" href="#"><img class="emblem" src="./cart.svg" alt="Company Emblem"></a> 
+        <div class="search input-group align-content-center">
+          <input type="text" class="form-control"  aria-label="Text input with segmented dropdown button">
+          <div class="input-group-append">
+            <button type="button" class="btn btn-outline-light">Search</button>
+            <button type="button" class="btn btn-outline-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="sr-only"></span>
+            </button>
+            <div class="dropdown-menu bg-dark">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
             </div>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Link1</a>
-              <a class="dropdown-item" href="#">Link2</a>
-              <a class="dropdown-item" href="#">Link3</a>
-            </div>
-          </form>
+          </div>
         </div>
-    
-        <div class="col-sm">
-          <ul class="navbar-nav pe-5">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Wishlist</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Sign Up</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Login</a>
-            </li>
-            
-            </li>
-          </ul>
-        </div>
-       
-          
-        <div class = "col-sm">
-          <a class="navbar-brand ps-5" href="#"><img class="profile" src="./profile.svg" alt="User Emblem"></a>
-        </div>
+      
+         
+      <div class = "right">
+        <a class="emblem navbar-brand" href="#"><img class="chat" src="./chat.svg" alt="Chatting Emblem"></a>
+        <a class="nav-link active" aria-current="page" href="#">Wishlist</a> 
+        <a class="nav-link active" aria-current="page" href="#">Signup</a>
+        <a class="nav-link active" aria-current="page" href="#">Login</a>
+        <a class="emblem navbar-brand" href="#"><img class="profile" src="./profile.svg" alt="User Emblem"></a>
       </div>
-      </div>
-    </nav>
+      
+    </div>
   </body>
 </html>
