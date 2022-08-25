@@ -76,3 +76,85 @@ p{
 
 }
 
+
+.emblem{
+
+  width: 17%;
+  height: 17%;
+  margin-left: -3%;
+
+}
+
+.profile{
+
+  width: 55%;
+  height:35%;
+  margin-left: 75%;
+  margin-top: 7%;
+  
+
+}
+
+.chat {
+
+  width:55%;
+  height: 35%;
+  margin-left: 35%;
+  margin-right: -10%;
+  margin-top: 10%;
+
+}
+
+.input-group{
+
+
+  border: none;
+  float: left;
+  width: 20%;
+  background: white;
+
+}
+
+.topnav {
+  background-color:#10192b;
+  overflow:auto;
+  width: 100%;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: #5bd4a5;
+  text-decoration:none;
+}
+
+.topnav a.active {
+  color: #5bd4a5;
+  text-decoration: none;
+}
+
+.right{
+
+  padding-left: 75%;
+
+}
+
+.search{
+
+  background-color: #10192b;
+  width:60%;
+  padding-top: 0.75%;
+  
+}
+
+.nav-link{
+
+  padding-top: 4%;
+
+}
