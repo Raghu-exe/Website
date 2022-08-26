@@ -56,6 +56,9 @@ p{
   height:40px;
 }
 
+
+
+
 .input-group{
 
 
@@ -66,11 +69,13 @@ p{
 
 }
 
-body{
+.search{
 
-  background-color:#b4b3b0;
+  width: 50%;
+  background-color: purple;
 
 }
+
 
 .emblem{
 
@@ -83,7 +88,7 @@ body{
 .profile{
 
   width: 55%;
-  height:55%;
+  height:35%;
   margin-left: 75%;
   margin-top: 7%;
   
@@ -93,7 +98,7 @@ body{
 .chat {
 
   width:55%;
-  height: 55%;
+  height: 35%;
   margin-left: 35%;
   margin-right: -10%;
   margin-top: 10%;
@@ -140,6 +145,13 @@ body{
 
 }
 
+.search{
+
+  background-color: #10192b;
+  width:60%;
+  padding-top: 0.75%;
+  
+}
 
 .nav-link{
 
