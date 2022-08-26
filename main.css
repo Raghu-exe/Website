@@ -1,101 +1,81 @@
 @media screen and (max-width: 600px) {
     .class {
-      background: #ccc;
+      background: #ffeba7;
     }
   }
 
 body{
 
-    background-color:#b4b3b0;
+    background-color:#364050;
+
+}
+
+nav .navbar{
+
 
 }
 
 .emblem{
 
-    width: 17%;
-    height: 17%;
-    margin-left: -5%;
-    margin-right: -5%;
+    width: 75px;
+    height: 75px;
 
 }
 
 .profile{
 
-    width: 55%;
-    height:55%;
-    margin-left: 75%;
-    margin-top: 7%;
+    min-width:15px;
+    min-height:15px;
+    max-width: 55px;
+    max-height: 55px;
+
+    margin-left: 2%;
     
 
 }
 
+.navbar-nav .nav-link {
+    color:#ffeba7;
+    padding-top: 5%;
+    text-decoration: none;
+    margin-right: 3%;
+}
+
+.navbar-nav .nav-link:hover{
+    text-decoration: underline;
+    color: white;
+
+}
+
+.navbar-nav .nav-link:active{
+    text-decoration: underline;
+    color: white;
+
+}
+.format{
+  color: #ffeba7;
+}
 .chat {
 
-    width:55%;
-    height: 55%;
-    margin-left: -50%;
-
-    margin-top: 10%;
+    min-width: 30px;
+    min-height:30px;
+    max-width: 55px;
+    max-width: 55px;
     
-
+   
 }
+
 
 .input-group{
 
- 
-    border: none;
-    float: left;
-    width: 20%;
-    background: white;
+    width: 50%;
+    min-width: 50%;
 
-}
-
-.topnav {
-    background-color:#10192b;
-    overflow:auto;
-    width: 100%;
-  }
-
-  .topnav a {
-    float: left;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a:hover {
-    color: #5bd4a5;
-    text-decoration:none;
-  }
-  
-  .topnav a.active {
-    color: #5bd4a5;
-    text-decoration: none;
-  }
-  
-.right{
-
-    padding-left: 75%;
-
-}
-
-.search{
-
-    background-color: #10192b;
-    width:60%;
-    padding-top: 0.75%;
-    
-}
-
-.nav-link{
-
-    padding-top: 4%;
 
 }
 
 .carousel_1 {
-    background-color: purple;
+    background-color: rgb(225, 217, 217);
 
 }
 
