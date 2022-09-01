@@ -65,6 +65,10 @@ body{
 
 }
 
+.navbar{
+    width: 100%;
+}
+
 .navbar-nav .nav-link {
     color:#ffeba7;
     padding-top: 5%;
@@ -141,3 +145,33 @@ body{
 
 }
 
+.c_1{
+
+    min-width: 15%;
+    max-width: 20%;
+    min-height: 10%;
+    max-height: 15%;
+
+
+}
+.card-img {
+  
+    object-fit: cover;
+}
+
+.footer{
+    background-color: #2a2b38;
+    margin-top: 10%;
+   
+
+}
+
+
+.col .footer_items a {
+text-decoration: none;
+color:#ffeba7;
+}
+.col .footer_items a:hover {
+	text-decoration: underline;
+    color:white
+}
