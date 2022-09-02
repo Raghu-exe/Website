@@ -4,11 +4,15 @@
     }
   }
 
-body{
-
-    background-color:#364050;
-
-}
+  html,body
+  {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      padding: 0px;
+      overflow-x: hidden; 
+      background-color: #364050;
+  }
 
 .profile_drop .dropdown-toggle::after {
     content: none;
@@ -67,6 +71,9 @@ body{
 
 .navbar{
     width: 100%;
+    position: fixed;
+    z-index: 10;
+
 }
 
 .navbar-nav .nav-link {
@@ -147,31 +154,71 @@ body{
 
 .c_1{
 
-    min-width: 15%;
-    max-width: 20%;
-    min-height: 10%;
-    max-height: 15%;
-
-
-}
-.card-img {
-  
-    object-fit: cover;
-}
-
-.footer{
-    background-color: #2a2b38;
-    margin-top: 10%;
+    width:400px;
+    height:400px;
    
 
 }
+.c_2{
 
+    width:400px;
+    height:400px;
 
-.col .footer_items a {
-text-decoration: none;
-color:#ffeba7;
 }
-.col .footer_items a:hover {
-	text-decoration: underline;
-    color:white
+.c_3{
+
+    width:400px;
+    height:400px;
+
+}
+
+.card-img {
+  width:400px;
+  height:400px;
+  object-fit: cover;
+}
+
+.card {
+
+    height: 410px; 
+    width: 410px;
+
+
+}
+
+.footer{
+    margin-top: 5%;
+    background-color:#2a2b38;
+}
+
+
+
+
+.footer_items{
+    font-size: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: #ffeba7;
+    text-decoration: none;
+
+}
+
+a:hover{
+    text-decoration: underline;
+    color:orange;
+}
+
+a:active{
+    text-decoration: underline;
+    color: orange;
+
+}
+
+.c_name{
+    margin-left: 5%;
+    margin-right:5%;
+    color: #ffeba7;
+    font-size: 20px;
+
+
 }
